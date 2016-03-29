@@ -162,3 +162,13 @@ C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleit
 C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\obj\Debug\LojaVirtualCleiton.csprojResolveAssemblyReference.cache
 C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\obj\Debug\LojaVirtualCleiton.dll
 C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\obj\Debug\LojaVirtualCleiton.pdb
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\System.Net.Http.Formatting.dll
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\System.Web.Http.dll
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\System.Web.Http.WebHost.dll
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\System.Net.Http.Formatting.xml
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\System.Web.Http.xml
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\System.Web.Http.WebHost.xml
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\AutoMapper.dll
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\Modelo.dll
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\Modelo.pdb
+C:\Users\MRH\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\AutoMapper.xml
