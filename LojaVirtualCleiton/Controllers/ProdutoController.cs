@@ -19,10 +19,14 @@ namespace LojaVirtualCleiton.Controllers
             var produtos = new Produtos();
             var listaProdutos = produtos.Lista();
             var lista = Mapper.Map<IList<ProdutoViewModel>>(listaProdutos);
-            return View(lista);
-       
+            return View(lista);     
             
             
         }
+        public ActionResult Editar()
+        {
+            return View();
+        }
+           
     }
 }
