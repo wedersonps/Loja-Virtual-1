@@ -8,9 +8,14 @@ namespace LojaVirtualCleiton.Models
 {
     public class ProdutoViewModel
     {
+        public Guid? Id { get; set; }
+
         [Required(ErrorMessage = "Nome é obrigatorio.")]
         public string Nome { get; set; }
 
-        public string Categoria { get; set; }
+        [Required(ErrorMessage = "Categoria é obrigatorio.")]
+        public CategoriaViewModel Categoria { get; set; }
+
+        public IList<CategoriaViewModel> Categorias { get; set; }
     }
 } 

@@ -7,44 +7,42 @@ using System.Threading.Tasks;
 namespace Modelo
 {
 
-    public class Produtos
+    public class Categorias
     {
 
 
-        public IList<Produto> Lista()
+        public IList<Categoria> Lista()
         {
             using (var session = NHibernateHelper.OpenSession())
-                return session.QueryOver<Produto>()
-                    .Fetch(p => p.Categoria)
-                    .Eager
+                return session.QueryOver<Categoria>()
                     .List();
         }
 
    
-        public void Salvar(Produto produto)
+        public void Salvar(Categoria categoria)
         {
             using (var session = NHibernateHelper.OpenSession())
             {
-                session.SaveOrUpdate(produto);
+                session.SaveOrUpdate(categoria);
                 session.Flush();
             }
         }
 
-        public virtual Produto Por(Guid? id)
+        public virtual Categoria Por(Guid? id)
 
         {
             using (var sesion = NHibernateHelper.OpenSession())
             {
-                return sesion.Get<Produto>(id);
+                return sesion.Get<Categoria>(id);
             }
         }
         public virtual void Apagar(Guid id)
         {
             using (var session = NHibernateHelper.OpenSession())
             {
-                var produto = session.Get<Produto>(id);
+                var categoria = session.Get<Categoria>(id);
 
-                session.Delete(produto);
+                session.Delete(categoria);
 
                 session.Flush();
             }

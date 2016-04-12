@@ -6,7 +6,7 @@
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px;    
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -22,6 +22,13 @@ select,
 textarea {
     max-width: 280px;
 }
-table{
-    border: 1px solid #87CEEB;
+table, th, tr, td{
+    border: 2px solid #000000;
+    padding: 5px;
+    background-color:#800000;
+    font-family: 'Arial Unicode MS';
+    color: #000000;
+    align-content:flex-end;
+    
+
 }
