@@ -62,6 +62,9 @@ namespace TesteLojaVirtual
             var produtoViewModel = Mapper.Map<ProdutoViewModel>(produto);
             Assert.AreEqual("Calcados", produtoViewModel.Categoria);
 
+
+
+
         }
     }
 }

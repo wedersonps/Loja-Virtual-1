@@ -224,6 +224,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\FornecedorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\CategoriaController.cs" />
@@ -232,8 +233,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Mappers\AutoMapperConfig.cs" />
+    <Compile Include="Mappers\FornecedorViewModelMappingProfile.cs" />
     <Compile Include="Mappers\CategoriaViewModelMappingProfile.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\FornecedorViewModel.cs" />
+    <Compile Include="Models\FornecedorMap.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\CategoriaMap.cs" />
@@ -313,6 +317,8 @@
     <Content Include="Views\Produto\Editar.cshtml" />
     <Content Include="Views\Categoria\Editar.cshtml" />
     <Content Include="Views\Categoria\Lista.cshtml" />
+    <Content Include="Views\Fornecedor\Editar.cshtml" />
+    <Content Include="Views\Fornecedor\Lista.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -326,6 +332,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Class1\Class1.csproj">
+      <Project>{4f5942e7-0150-44b4-af6e-1ddbfa29470d}</Project>
+      <Name>Class1</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Modelo\Modelo.csproj">
       <Project>{20dbe4b8-45ce-4fd1-a9c8-7ce6574eeb76}</Project>
       <Name>Modelo</Name>

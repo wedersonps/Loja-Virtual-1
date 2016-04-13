@@ -17,5 +17,13 @@ namespace LojaVirtualCleiton.Models
         public CategoriaViewModel Categoria { get; set; }
 
         public IList<CategoriaViewModel> Categorias { get; set; }
+
+        [Required(ErrorMessage = "Fornecedor é obrigatorio.")]
+        public FornecedorViewModel Fornecedor { get; set; }
+
+        public IList<FornecedorViewModel> Fornecedores { get; set; }
+
+
+
     }
 } 

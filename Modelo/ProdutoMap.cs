@@ -9,6 +9,7 @@ namespace Modelo
             Id( x =>x.Id).GeneratedBy.GuidComb();
             Map(x => x.Nome);
             References(x => x.Categoria);
+            References(x => x.Fornecedor);
         }
     }
 }

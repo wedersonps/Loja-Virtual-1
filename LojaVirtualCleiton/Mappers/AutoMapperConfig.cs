@@ -14,6 +14,8 @@ namespace LojaVirtualCleiton.Mappers
            {
                x.AddProfile<ProdutoViewModelMappingProfile>();
                x.AddProfile<CategoriaViewModelMappingProfile>();
+               x.AddProfile<FornecedorViewModelMappingProfile>();
+
            });
         }
     }
