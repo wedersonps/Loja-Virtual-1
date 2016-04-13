@@ -71,9 +71,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LojaVirtualCleiton\LojaVirtualTiago.csproj">
+    <ProjectReference Include="..\LojaVirtualCleiton\LojaVirtualCleiton.csproj">
       <Project>{9022eade-971e-4a40-8e1a-c4bc62ee950b}</Project>
-      <Name>LojaVirtualTiago</Name>
+      <Name>LojaVirtualCleiton</Name>
     </ProjectReference>
     <ProjectReference Include="..\Modelo\Modelo.csproj">
       <Project>{20dbe4b8-45ce-4fd1-a9c8-7ce6574eeb76}</Project>
