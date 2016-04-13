@@ -8,6 +8,8 @@ namespace Modelo
         {
             Id(x => x.Id).GeneratedBy.GuidComb();
             Map(x => x.Nome);
+          
+           
         }
     }
 }
